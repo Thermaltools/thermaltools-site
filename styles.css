@@ -1,1 +1,97 @@
-/* placeholder for styles.css */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+.dark {
+  background: #121212;
+  color: #ddd;
+}
+.hero, .tools, .pricing, .features, .payments {
+  padding: 40px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5em;
+}
+.whatsapp-button {
+  background: #25D366;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.logos img {
+  height: 60px;
+}
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.note {
+  color: red;
+  font-size: 0.9em;
+}
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  color: white;
+}
+.card.green {
+  background: #16a34a;
+}
+.card.yellow {
+  background: #facc15;
+  color: black;
+}
+.features ul, .payments ul {
+  list-style: none;
+  padding: 0;
+}
+.features li, .payments li {
+  margin: 10px 0;
+}
+.floating-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 14px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background: #f3f4f6;
+}
+.dark footer {
+  background: #1f2937;
+}
