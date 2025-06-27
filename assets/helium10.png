@@ -1,1 +1,1 @@
-fake-image-data
+<img src={heliumLogo} alt="Helium 10 Logo" />
