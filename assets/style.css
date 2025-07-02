@@ -1,0 +1,178 @@
+
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  background: #f4f8fb;
+  color: #222;
+}
+.container {
+  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+.logo {
+  max-width: 80px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+}
+.hero {
+  background: linear-gradient(120deg, #234cff 60%, #5fd0ff 100%);
+  color: #fff;
+  text-align: center;
+  padding: 48px 0 32px 0;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  box-shadow: 0 2px 12px 0 #2b7fff21;
+}
+.hero .whatsapp-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 32px;
+  background: #25d366;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px #21b34c33;
+  transition: background .2s;
+}
+.hero .whatsapp-btn:hover {
+  background: #21b34c;
+}
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 18px;
+}
+
+.offers h2, .reviews h2, .faq h2 {
+  margin-bottom: 14px;
+  color: #234cff;
+}
+.offer-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.offer-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 16px #adc9f933;
+  padding: 24px 18px 20px 18px;
+  width: 260px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer-card img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.offer-card .badge {
+  background: #eaf0fb;
+  color: #234cff;
+  font-size: 0.96em;
+  border-radius: 12px;
+  padding: 3px 16px;
+  display: inline-block;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+.offer-card .price {
+  font-size: 1.8em;
+  color: #25d366;
+  font-weight: bold;
+  margin: 0 0 7px 0;
+}
+.offer-card .offer-btn {
+  background: #234cff;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: 28px;
+  margin-top: 8px;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 2px 8px #234cff30;
+  transition: background .2s;
+}
+.offer-card .offer-btn:hover {
+  background: #1836b8;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0 10px 0;
+  flex-wrap: wrap;
+}
+.badge-item {
+  background: #eaf0fb;
+  color: #234cff;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 1px 8px #234cff19;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.review-list {
+  display: grid;
+  gap: 14px;
+}
+.review {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px #b5b9ea33;
+  padding: 15px 22px;
+  font-size: 1.08em;
+  color: #234cff;
+}
+
+.faq {
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+.faq-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #b5b9ea1a;
+  padding: 13px 20px;
+  font-size: 1.05em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #eaf0fb;
+  color: #234cff;
+  text-align: center;
+  padding: 24px 0 18px 0;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  margin-top: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 780px) {
+  .container {
+    padding: 24px 3vw;
+  }
+  .offer-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
